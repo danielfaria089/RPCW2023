@@ -46,17 +46,23 @@ def geraCidadeInfo(c):
     #Se for destino ou origem de alguma ligação, gera uma lista com os pares e a distância
     ligacoesCidade= [l for l in ligacoes if l['origem'] == c['id'] or l['destino'] == c['id']]
 
-    ligacoesCidadeInfo=""
+    ligacoesTuplos=[]
 
     for l in ligacoesCidade:
         if c["id"]!=l["origem"]:
-            ligacoesCidadeInfo+=f"""
-                        <li><a href="#{l["origem"]}">{idToCity[l["origem"]]}:{l["distância"]}</a></li>
-            """
+            ligacoesTuplos.append((l["origem"],l["distância"]))
         else:
-            ligacoesCidadeInfo+=f"""
-                        <li><a href="#{l["destino"]}">{idToCity[l["destino"]]}:{l["distância"]}</a></li>
-            """
+            ligacoesTuplos.append((l["destino"],l["distância"]))
+
+    ligacoesTuplos.sort(key=lambda x: idToCity[x[0]])
+
+    ligacoesCidadeInfo=""
+
+    for l in ligacoesTuplos:
+        ligacoesCidadeInfo+=f"""
+                        <li><a href="#{l[0]}">{idToCity[l[0]]}:{l[1]}</a></li>
+        """
+            
 
     return f"""
                     <a name="{c['id']}"/>
