@@ -1,0 +1,32 @@
+<manifesto>
+    <meta>
+        <título>TPC1</título>
+        <data>2023-02-17</data>
+        <autor>
+            <nome>Daniel Faria</nome>
+            <id>PG50306</id>
+            <gitlink>https://github.com/danielfaria89/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+        <p>
+            Para 1...
+            <b>isto fica a bold</b>
+        </p>
+        <p>
+            Para 2
+            <i>isto fica a itálico</i>
+            ...
+        </p>
+        <p>
+            Para 3 com uma
+            <xref url="URL para o recurso">referência externa</xref>
+            ...
+        </p>
+    </resumo>
+    <resultados>
+        <resultado path="paginaH/index.html">Ficheiro HTML da página H</resultado>
+        <resultado path="mapaVirtual/mapa.html">Ficheiro HTML da página do Mapa Virtual</resultado>
+    </resultados>
+</manifesto>
