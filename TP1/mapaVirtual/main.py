@@ -1,4 +1,5 @@
 import json
+import sys
 
 def ordCidade(c):
     return c['nome']
@@ -60,7 +61,7 @@ def geraCidadeInfo(c):
 
     for l in ligacoesTuplos:
         ligacoesCidadeInfo+=f"""
-                        <li><a href="#{l[0]}">{idToCity[l[0]]}:{l[1]}</a></li>
+                        <li><a href="#{l[0]}">{idToCity[l[0]]}</a>: {l[1]} KM</li>
         """
             
 
@@ -93,5 +94,7 @@ cidadesInfo = f"""<ul>
 
 page = page.replace("<!-- Lista com o índice -->", indice)
 page = page.replace("<!-- Lista das infos das cidades -->", cidadesInfo)
-                    
+
+sys.stdout = open('mapa.html', 'w')
+
 print(page)
