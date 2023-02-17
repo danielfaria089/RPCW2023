@@ -1,0 +1,242 @@
+[
+    {
+        "nome":"Hospital in the Rock Nuclear Bunker Museum",
+        "classificacao":4.5,
+        "website":"https://www.sziklakorhaz.eu/en/",
+        "descricao":"The Hospital in the Rock Nuclear Bunker Museum is a thrilling, unique and moving place. Visitors can learn about the WWII and the 1956 revolution as well as the Cold War in relation to this former TOP SECRET nuclear bunker. It had an important role during the war and it was classified until 2002 and opened as a museum in 2008. The place ensures a real time warp into the past. Mobiles are not working inside. Do not expect a regular museum. One hour long tour departs every hour in English. Guide books are available in several languages. Unforgettable experience underneath the Castle Hill. The entrance is only about 5 minutes walk from the famous Matthias-Church of Buda.",
+        "categorias":["Speciality Museums","History Museums"],
+        "id":1
+    },
+    {
+        "nome":"Budapest Pinball Museum",
+        "classificacao":5.0,
+        "website":"https://flippermuzeum.hu/en/main-page/",
+        "descricao":"Hungary's first and Europe's largest continuously operating interactive pinball exhibition with unlimited trial of more than 130 pinball machines.",
+        "categorias":["Speciality Museums"],
+        "id":2
+    },
+    {
+        "nome":"House of Terror Museum",
+        "classificacao":4.0,
+        "website":"https://www.terrorhaza.hu/hu",
+        "descricao":"A museum devoted to various historical terror regimes and practices.",
+        "categorias":["Speciality Museums"],
+        "id":3
+    },
+    {
+        "nome":"Holocaust Memorial Center",
+        "classificacao":4.5,
+        "website":"https://hdke.hu/en/",
+        "descricao":"The Holocaust Memorial Center is a national institution established by the Government in 1999. In 2002, it decided to construct the building of the Center in Pava Street, outside of the traditional Jewish quarter, further emphasizing its national character.The Holocaust Memorial Center is one of the few institutions in the world, established by the state, that focuses entirely on Holocaust research and education.The visitors are welcomed into a unique space that was named as the most impressive in Budapest, beside the city's panorama itself by Frank Owen Gehry, one of the leading architects in our time. The modern building is organically linked to the Pava Street Synagogue, an authentic venue that once used to be the second largest site for Jewish worship in Budapest.The Institution is a center for scientific research education and culture. It welcomes visitors with interactive permanent and special periodic exhibitions, experience-based museum pedagogical programs and cultural performances. Guided tours are available in five languages and special, thematically focused tours are offered regularly. A bookshop and a cozy coffee shop contribute to a memorable visit.",
+        "categorias":["Speciality Museums"],
+        "id":4
+    },
+    {
+        "nome":"Museum of Sweets & Selfies",
+        "classificacao":4.5,
+        "website":"https://szelfimuzeum.hu/eng/",
+        "descricao":"The 1st. Selfie Museum in Europe! Make amazing selfies on 400 square-meters, on 2 floors! Don't forget to charge your phone before coming! ;) Make your best pictures ever and share them on Instagram!",
+        "categorias":["Speciality Museums"],
+        "id":5
+    },
+    {
+        "nome":"Hungarian National Gallery",
+        "classificacao":4.0,
+        "website":"https://mng.hu/",
+        "descricao":"The Hungarian National Gallery moved to the Buda Palace in 1975. It is the largest public collection to present the history of Hungarian fine art, and currently includes 110,000 artworks. Permanent exhibitions show outstanding pieces, such as the medieval wooden sculptures and paintings of the Old Hungarian Collection, a selection of 19th-century Hungarian art, or the works of Mihály Munkácsy. Other permanent exhibitions are Modern Times, presenting the art of the period between the Millennium (1896) and World War II, Shifts – Hungarian Art after 1945, and the collection of the International Art after 1800, which was previously on display at the Museum of Fine Arts. For our current and upcoming temporary exhibitions, see our website. The highest point of the Palace, the Dome of the Gallery offers an incredible view on the capital. The Dome can be visited during opening hours, depending on weather conditions.",
+        "categorias":["Art Galleries","Art Galleries"],
+        "id":6
+    },
+    {
+        "nome":"Hungarian Parliament Building",
+        "classificacao":4.5,
+        "website":"http://www.parlament.hu/",
+        "descricao":"The domed neo-Gothic structre was inspired by the British House of Parliament and serves as both a vibrant government center and a proud city landmark on the banks of the Danube.",
+        "categorias":["Architectural Buildings","Government Buildings"],
+        "id":7
+    },
+    {
+        "nome":"Halászbástya",
+        "classificacao":4.5,
+        "website":"http://www.fishermansbastion.com/",
+        "descricao":"Built during the 19th century for the Hungarian Millennium celebrations, this mock bastion features pointed towers and turrets, reminiscent of the fairytale castles in Disney World.",
+        "categorias":["Historic Sites","Points of Interest & Landmarks"],
+        "id":8
+    },
+    {
+        "nome":"St. Stephen's Basilica",
+        "classificacao":4.5,
+        "website":"http://en.bazilika.biz/",
+        "descricao":"Built between 1851 and 1905, this large parish church accommodates 8,500 people and features a magnificent 300-foot, neo-Renaissance dome.",
+        "categorias":["Religious Sites","Churches & Cathedrals"],
+        "id":9
+    },
+    {
+        "nome":"Shoes on the Danube Bank",
+        "classificacao":4.5,
+        "website":null,
+        "descricao":"The Shoes on the Danube Bank is a memorial erected on 16 April 2005, in Budapest, Hungary. Conceived by film director Can Togay, he created it on the east bank of the Danube River with sculptor Gyula Pauer to honour the Jews who were massacred by fascist Hungarian militia belonging to the Arrow Cross Party in Budapest during the Second World War.",
+        "categorias":["Historic Sites","Points of Interest & Landmarks","Monuments & Statues"],
+        "id":10
+    },
+    {
+        "nome":"Danube River",
+        "classificacao":4.5,
+        "website":null,
+        "descricao":"The Danube is the second-longest river in Europe. It begins in the Black Forest in Germany and flows east to the Danube Delta on the western coast of the Black Sea. Over the years, it has played an important role in the history of Europe. It passes through four capital cities as well as a number of other influential, historic and beautiful towns and stunning landscapes.",
+        "categorias":["Bodies of Water"],
+        "id":11
+    },
+    {
+        "nome":"Matthias Church",
+        "classificacao":4.5,
+        "website":"http://matyas-templom.hu/",
+        "descricao":"Used over the centuries as a coronation church for the Hungarian kings, the slender and graceful architecture of this beautiful church dominates the main square of the Castle area.",
+        "categorias":["Historic Sites","Architectural Buildings","Religious Sites"],
+        "id":12
+    },
+    {
+        "nome":"Heroes' Square",
+        "classificacao":4.5,
+        "website":null,
+        "descricao":"A large square constructed in 1896 for the millennium of the Magyar Conquest of Hungary. The square's Millennial Monument is flanked by the Fine Arts Museum and the Mucsarnok Art Gallery.",
+        "categorias":["Historic Sites","Points of Interest & Landmarks","Monuments & Statues"],
+        "id":13
+    },
+    {
+        "nome":"Buda Castle",
+        "classificacao":4.5,
+        "website":"http://budacastlebudapest.com/",
+        "descricao":"Destroyed by fire in World War II, this imposing 13th-century palace was rebuilt with modern interiors while incorporating hidden walls and medieval structures that remained hidden over the centuries.",
+        "categorias":["Buda Castle"],
+        "id":14
+    },
+    {
+        "nome":"Varhegy",
+        "classificacao":4.5,
+        "website":"http://budacastlebudapest.com/",
+        "descricao":"Lovingly restored after being reduced to rubble during World War II, this picturesque area is located in the heart of medieval Budapest, which is characterized by cobblestone streets, narrow alleys and lovely squares surrounded by baroque and classical buildings.",
+        "categorias":["Points of Interest & Landmarks"],
+        "id":15
+    },
+    {
+        "nome":"Széchenyi Lánchíd",
+        "classificacao":4.5,
+        "website":"http://www.fishermansbastion.com/",
+        "descricao":"Completed in 1849, this bridge was the first to be built across the Hungarian section of the Danube and is now considered to be one of the city's major landmarks.",
+        "categorias":["Bridges"],
+        "id":16
+    },
+    {
+        "nome":"Margaret Island",
+        "classificacao":4.5,
+        "website":"http://szabadter.hu/",
+        "descricao":"Quiet walkways, flower gardens, romantic ruins and century-old trees make up this popular recreation spot located in the heart of Budapest.",
+        "categorias":["Islands","Parks"],
+        "id":17
+    },
+    {
+        "nome":"Hungarian State Opera House",
+        "classificacao":4.5,
+        "website":"http://www.opera.hu/programme",
+        "descricao":"This magnificent new-Renaissance style structure, completed in 1884 and modeled after the Vienna Opera House, is home to both the State Opera and the State Ballet.",
+        "categorias":["Operas","Architectural Buildings"],
+        "id":18
+    },
+    {
+        "nome":"Gellert Hill",
+        "classificacao":4.5,
+        "website":"http://visitbudapest.travel/guide/budapest-attractions/gellert-hill",
+        "descricao":"The best views of Budapest and the Danube River are from this hill, which also features the imposing fortress, the Citadella, at its summit.",
+        "categorias":["Historic Sites"],
+        "id":19
+    },
+    {
+        "nome":"Central Market Hall",
+        "classificacao":4.0,
+        "website":"http://www.piaconline.hu/new/hir.php?c=1031",
+        "descricao":"Budapest's largest and most expansive indoor market, built in the neo-Gothic style, offers a variety of food stalls, from fresh vegetables, fowl and meat to wine and liquor shops.",
+        "categorias":["Farmers Markets"],
+        "id":20
+    },
+    {
+        "nome":"3d Gallery Budapest",
+        "classificacao":4.5,
+        "website":"http://3dgallerybudapest.hu/",
+        "descricao":"Create your unit composition based your own idea! The setting is given be a part of this miracle! For all age group, adults and for all! Here everyone will find their vision, because you are the inspiration and art it self. The gallery being interactive enables you to touch any paintings (freely), get active in composing your pictures. Don't forget to bring along your smartphone or camera and take pictures so that you would never forget this fantastic experience! Remember we are constantly changing the content of the Gallery, it is always worth dropping by. VERY FUNNY, AMAZING AND CRAZY!!!",
+        "categorias":["Points of Interest & Landmarks"],
+        "id":21
+    },
+    {
+        "nome":"Vajdahunyad Castle",
+        "classificacao":4.5,
+        "website":"http://www.vajdahunyadcastle.com/",
+        "descricao":"Built in 1896 for the Millennial celebrations, this large complex houses 21 exact replicas of the most magnificent and historic buildings of Hungary.",
+        "categorias":["Architectural Buildings","Castles"],
+        "id":22
+    },
+    {
+        "nome":"Great / Central Synagogue",
+        "classificacao":4.0,
+        "website":"http://www.greatsynagogue.hu/gallery_syn.html#4",
+        "descricao":"The world's second-largest synagogue, featuring a room that holds three thousand people, is a center for the large Jewish community of Budapest.",
+        "categorias":["Historic Sites","Architectural Buildings","Religious Sites"],
+        "id":23
+    },
+    {
+        "nome":"Faust Wine Cellar",
+        "classificacao":5.0,
+        "website":"http://www.gbwine.eu/",
+        "descricao":"Be our guest in our authentic Faust Wine Cellar under the Dominican Cloister - the part of the UNESCO World Heritage! We are offering about 80 sorts of Hungarian wines and 30 sorts of 'Pálinka'. During the week we are organizing special wine and 'Pálinka' tastings guided by our sommelier!",
+        "categorias":["Wineries & Vineyards"],
+        "id":24
+    },
+    {
+        "nome":"Budapest Zoo & Botanical Garden",
+        "classificacao":4.0,
+        "website":"http://www.zoobudapest.com/en",
+        "descricao":"One of the oldest zoos in Europe, established in 1866, features the hippopotamus, bred in captivity, and an animal nursery of lion and bear cubs.",
+        "categorias":["Zoos"],
+        "id":25
+    },
+    {
+        "nome":"Gozsdu Udvar",
+        "classificacao":4.5,
+        "website":"https://www.gozsduudvar.hu/gozsdu",
+        "descricao":"Gozsdu: where past and present meet. Gozsdu Courtyard is one of the most dynamically improving centres in downtown Budapest; it is a meeting point that combines entertainment, gastronomy and culture. The entertainment quarter is awaiting its guests with uniquely exciting programmes every day of the week. The Courtyard makes room for countless places (restaurants/bars/cafés/pubs), representing extraordinary styles, thus providing colourful experience for all generations. It attracts more than 900,000 visitors per annum; due to its cosmopolitan nature it has become extremely popular among residents of Budapest and tourists as well. CULTURE. FUN. STYLE. GOZSDU COURTYARD.",
+        "categorias":["Points of Interest & Landmarks","Scenic Walking Areas"],
+        "id":26
+    },
+    {
+        "nome":"Liberty Bridge",
+        "classificacao":4.5,
+        "website":"http://www.budapest.com/city_guide/sights/bridges/liberty_bridge.en.html",
+        "descricao":"Szabadság híd in Budapest, Hungary, connects Buda and Pest across the River Danube. It is the third southernmost public road bridge in Budapest, located at the southern end of the City Centre. It was originally named Ferenc József híd.",
+        "categorias":["Bridges"],
+        "id":27
+    },
+    {
+        "nome":"Palatinus Strand",
+        "classificacao":4.5,
+        "website":"http://www.palatinusstrand.hu/",
+        "descricao":"Sprawling complex offering indoor & outdoor thermal baths, swimming pools & a water slide.",
+        "categorias":["Water Parks","Hot Springs & Geysers"],
+        "id":28
+    },
+    {
+        "nome":"Citadel",
+        "classificacao":4.5,
+        "website":"http://citadella.hu/",
+        "descricao":"Located on the summit of Gellert Hill, this fortress was built by the Hapsburgs in 1854 to keep the city under surveillance.",
+        "categorias":["Historic Sites"],
+        "id":29
+    },
+    {
+        "nome":"Vaci Street",
+        "classificacao":4.0,
+        "website":null,
+        "descricao":"The main thoroughfare of Pest during the 18th century, today the pedestrian walkway is lined with upscale shops, restaurants and cafes.",
+        "categorias":["Points of Interest & Landmarks"],
+        "id":30
+    }
+]

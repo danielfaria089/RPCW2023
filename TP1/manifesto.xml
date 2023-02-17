@@ -10,20 +10,6 @@
         <uc>Representação e Processamento de Conhecimento na Web</uc>
     </meta>
     <resumo>
-        <p>
-            Para 1...
-            <b>isto fica a bold</b>
-        </p>
-        <p>
-            Para 2
-            <i>isto fica a itálico</i>
-            ...
-        </p>
-        <p>
-            Para 3 com uma
-            <xref url="URL para o recurso">referência externa</xref>
-            ...
-        </p>
     </resumo>
     <resultados>
         <resultado path="paginaH/index.html">Ficheiro HTML da página H</resultado>
