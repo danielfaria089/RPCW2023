@@ -1,0 +1,29 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> S. Sebastião </identi>
+<descri>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+</descri>
+<crono> Proto-História / Romanização</crono>
+<lugar> S. Sebastião </lugar>
+<fregue> Atiães </fregue>
+<concel> Vila Verde </concel>
+<codadm> 031303 </codadm>
+<latitu> 518,8 </latitu>
+<longit> 170,5 </longit>
+<altitu> 100m </altitu>
+<quadro>O lugar de S. Sebastião corresponde a um pequeno outeiro de baixa altitude,
+que se destaca bem no largo vale da Ribeira de Febros.</quadro>
+<traarq>Não são conhecidos trabalhos arqueológicos no local.</traarq>
+<desarq>Trata-se de um pequeno povoado de baixa altitude, do mesmo género do <liga termo="castro"> castro</liga> do Lago, em Amares. Está organizado em função
+de uma única plataforma, situada na parte mais alta do monte. Na superfície
+do cabeço encontram-se alguns fragmentos de <liga termo="cerâmica indígena">cerâmica indígena</liga> e romanizada. </desarq>
+<interp>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+romanizado.</interp>
+<biblio>MARTINS, M. (1990) O Povoamento Proto-Histórico e a Romanização da
+Bacia do Curso Médio do Càvado, Cadernos de Arqueologia - Monogtrafias, 5,
+Universidade do Minho, Braga, pp. 95-96. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-FEV-1998</data>
+</arqelem>

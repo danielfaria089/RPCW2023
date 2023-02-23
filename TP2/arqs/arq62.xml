@@ -1,0 +1,40 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Monte de Lousado </identi>
+<descri>
+<liga termo="povoado fortificado"> Povoado fortificado </liga>
+</descri>
+<crono> Proto-História / Romanização</crono>
+<lugar> Monte do Lousado</lugar>
+<fregue> Alheira </fregue>
+<concel> Barcelos </concel>
+<codadm> 030207 </codadm>
+<latitu> 517,1 </latitu>
+<longit> 165,5 </longit>
+<altitu> 300m </altitu>
+<acesso>O acesso pode fazer-se a partir de Alheira.</acesso>
+<quadro>O Monte de Lousado situa-se nos limites das freguesias de Alheira e de
+Panque, ambas do concelho de Barcelos. Corresponde ao extremo NE de uma
+pequena crista montanhosa, que se dispõe no sentido NE/SO, paralela ao rio
+Neiva. A parte alta desta crista separa as bacias dos rios Cávado e Neiva.</quadro>
+<traarq>Não são conhecidos trabalhos arqueológicos no local. </traarq>
+<desarq>O povoado é conhecido e referido na bibliografia, pelo menos, a partir do
+século XVIII. É citado por Contador de Argote e por L. Cardoso, no
+"Dicionário Geográfico". Apesar dessas referências e da monumentalidade dos
+seus vestígios nunca foi objecto de trabalhos arqueológicos. A maioria dos
+vestígios concentra-se na parte mais alta do monte: aí são visíveis restos
+de muralhas e alicerces de construções habitacionais. Na superfície do
+povoado recolhem-se fragmentos de <liga termo="cerâmica indígena"> cerâmica
+indígena</liga> de fabrico <liga termo="micáceo"> micáceo</liga> e de
+cerâmica romana.</desarq>
+<interp>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+romanizado.</interp>
+<biblio>: FONSECA, T. (1948). O concelho de Barcelos Aquém e Além Cávado,
+Barcelos, 2 Vol., pp. 13; 65-66. </biblio>
+<biblio>MARTINS, M. (1990). O Povoamento Proto-Histórico e a Romanização da Bacia do
+Médio Cávado, Cadernos de Arqueologia - Monografias, 5, Universidade do
+Minho, Braga, pp. 73. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-Fev-1998</data>
+</arqelem>

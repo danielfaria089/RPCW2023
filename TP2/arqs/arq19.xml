@@ -1,0 +1,41 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Castro de Escariz; Santo Isidoro; Santos Ilus </identi>
+<descri>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+</descri>
+<crono> Proto-Hitória / Romanização </crono>
+<lugar> Castro de Escariz </lugar>
+<fregue> Escariz-S. Mamede </fregue>
+<concel> Vila Verde </concel>
+<codadm> 031345 </codadm>
+<latitu> 518,6 </latitu>
+<longit> 166,5 </longit>
+<altitu> 235m </altitu>
+<acesso>O acesso a este povoado faz-se a partir de Escariz.</acesso>
+<quadro>O monte onde assenta o <liga termo="castro"> castro</liga> ocupa o extremo
+norte de uma estreita crista montanhosa, que se desenvolve no sentido
+Norte/Sul, entre S. Martinho de Escariz e Parada de Gatim, paralela ao rio
+Neiva, tendo como ponto mais alto o lugar de Barrosas, com 248m de
+altitude.</quadro>
+<traarq>Não são conhecidos trabalhos arqueológicos no local.</traarq>
+<desarq>O povoado possui três plataformas e três linhas de muralhas. À superfície
+recolhem-se fragmentos de <liga termo="cerâmica micácea"> cerâmica
+micácea</liga> e <liga termo="tégula"> tégulas</liga>, sendo visíveis restos
+de construções habitacionais. Na Casa do Povo de Escariz existe uma mó
+proveniente do <liga termo="castro"> castro</liga>. No Museu Pio XII, em
+Braga está guardada uma pedra decorada proveniente deste mesmo sítio,
+inventariada com o nº 22. A pedra ostenta, numa das faces, dois cordões
+paralelos.</desarq>
+<interp>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+romanizado.</interp>
+<deposi> Museu Pio XII, em Braga.</deposi>
+<biblio> AZEVEDO, P. A.(1898). Extractos archeologicos das memorias
+parochiais de 1758, Arqueólogo Português, 2 (1896). pp.143. </biblio>
+<biblio>MARTINS, M. (1990) O Povoamento Proto-Histórico e a Romanização da Bacia do
+Curso do Médio Cávado, Cadernos de Arqueologia - Monografias, 5,
+Universidade do Minho, Braga, pp. 101-102. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-FEV-1998</data>
+</arqelem>

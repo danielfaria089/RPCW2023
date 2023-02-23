@@ -1,0 +1,40 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Cruzeiro do Pilar</identi>
+<descri>
+<liga termo="miliário"> Miliário</liga>
+</descri>
+<crono> Romanização</crono>
+<lugar> Lugar de Pilar </lugar>
+<fregue> Fiscal </fregue>
+<concel> Amares </concel>
+<codadm> 030111 </codadm>
+<latitu> 520,6 </latitu>
+<longit> 178,5 </longit>
+<altitu> 100m </altitu>
+<acesso> O <liga termo="miliário"> miliário</liga> está no lugar de Pilar,
+entre S. Miguel de Fiscal e S. Martinho de Carrazedo, servindo como base de
+um cruzeiro.</acesso>
+<desarq>
+<liga termo="miliário"> Miliário</liga> epigrafado, encimado por
+uma cruz. Altura: 166; diâmetro: 29; letras: 8.
+
+
+[IMP]P(eratori). CAE[S(ari).M(arco)] / AVR(elio). CA[RO] / P(io) F(elici)
+I(nvicto) [AVG(usto)] / P(ontifici) M(aximo)...
+
+Ao Imperador César Marco Aurélio Caro, Pio, Feliz, Invicto, Augusto,
+Pontífex Máximo...</desarq>
+<interp>
+<liga termo="miliário"> Miliário</liga> pertencente à Via Nova
+(Geira), datado de 282-283. Encontra-se deslocado. </interp>
+<biblio> BRANDÃO, D. P.(1962). As inscriçõs luso-romanas dos apontamentos de
+Frei Bento de Santa Gertrudes, Lucerna, 2 (1-2), Porto, pp. 25-29. </biblio>
+<biblio> SOUSA, J. J. R.(1971-72). Nova ara dedicada aos Lares no conventus
+Bracaraugustano, Bracara Augusta, 25-26, 59-62 (71-74), pp.180. </biblio>
+<biblio> MARTINS, M. (1990) O Povoamento Proto-Histórico e Romanização da
+Bacia do Curso do Médio Cávado, Cadernos de Arqueologia - Monografias, 5,
+Universidade do Minho, Braga, pp. 67-68. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-FEV-1998</data>
+</arqelem>

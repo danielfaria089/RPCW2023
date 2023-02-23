@@ -1,0 +1,45 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Castro das Caldas </identi>
+<descri>
+<liga termo="povoado fortificado romanizado"> Povoado fortificado</liga>
+</descri>
+<crono> Proto-História / Romanização</crono>
+<lugar> Monte das Caldas; Monte de S. Mamede </lugar>
+<fregue> Gondizalves </fregue>
+<concel> Braga </concel>
+<codadm> 030318 </codadm>
+<latitu> 507,8 </latitu>
+<longit> 171,9 </longit>
+<altitu> 304m </altitu>
+<acesso>O acesso a este povoado pode fazer-se, por caminho carreteiro, a partir de
+Gondizalves, ou Sequeira.</acesso>
+<quadro>O Castro das Caldas localiza-se a NO de Braga, no monte do mesmo nome,
+outrora também conhecido por Monte de S. Mamede. O cabeço corresponde a uma
+elevação de altitude média, formando um pequeno esporão. O povoado ocupa o
+extremo Sudeste dessse esporão.</quadro>
+<traarq>Não são conhecidos trabalhos arqueológicos no local.</traarq>
+<desarq>O povoado está bastante destruído, sobretudo nos lados Oeste e Sudoeste,
+onde existe uma grande pedreira. É ainda possível reconhecer vestígios de
+três linhas de muralhas, definidas por taludes, que delimitariam três
+plataformas. Na parte mais alta do monte são visíveis restos de estruturas
+circulares e rectangulares, bastante arruinadas. Na superfície do povoado
+recolhem-se fragmentos de <liga termo="cerâmica indígena"> cerâmica
+indígena</liga>, de fabrico <liga termo="micáceo"> micáceo</liga> e de <liga termo="tégula"> tégulas</liga>, que permitem admitir a sua <liga termo="romanização"> romanização</liga>.</desarq>
+<interp>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+romanizado.</interp>
+<deposi>Museu Pio XII.</deposi>
+<biblio> BELLINO, A. (1909), Cidades mortas, Arqueólogo Português, 14,
+pp.18-19; </biblio>
+<biblio>TEIXEIRA, C. (1955-56). Subsídios para o estudo da arqueologia bracarense-I.
+O Monte do Castro (Castrum Maximum), Anais da Faculdade de Ciências do
+Porto, Porto, 21 (4), pp.6. </biblio>
+<biblio> CUNHA, A. R. (1975a). Trepando aos Montes, O Distrito de Braga, 1
+(3-4), Braga, pp.499-500. </biblio>
+<biblio> MARTINS, M. (1990). O Povoamento Proto-Histórico e a Romanização da
+Bacia do Curso Médio Cávado, Cadernos de Arqueologia - Monografias,
+Univerisdade do Minho, Braga, pp. 83/84. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-Fev-1998</data>
+</arqelem>

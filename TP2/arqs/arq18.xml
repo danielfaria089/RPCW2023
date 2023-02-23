@@ -1,0 +1,36 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Castro de Caldelas; Monte das Caldas; Outeiro de S. Sebastião</identi>
+<descri>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+</descri>
+<lugar> S. Sebastião </lugar>
+<fregue> Caldelas </fregue>
+<concel> Amares </concel>
+<codadm> 030106 </codadm>
+<latitu> 180,0 </latitu>
+<longit> 522,35</longit>
+<altitu> 222m </altitu>
+<acesso> O acesso faz-se a partir de Caldelas, por caminho
+carreteiro.</acesso>
+<quadro>O povoado assenta num pequeno outeiro, bem destacado no vale do rio Homem. O
+monte encontra-se densamente arborizado. </quadro>
+<traarq>Não são conhecidos quaisquer trabalhos arqueológicos no local. </traarq>
+<desarq> A cobertura vegetal do cabeço não deixa perceber quaisquer
+estruturas à superfície. Todavia é possível identificar algum material de
+derrube, nos locais onde passariam as muralhas. Desconhece-se se o povoado
+terá sido romanizado. </desarq>
+<interp>
+<liga termo="povoado fortificado"> povoado fortificado</liga>
+proto-histórico.</interp>
+<biblio>SILVA, D. M. (1958-59). Entre Homem e Cávado, Amares. Monografia do concelho
+de Amares e Terras de Bouro, Amares. pp. 229; </biblio>
+<biblio>JORGE, S. O. e J. J. RIGAUD de SOUSA (1980). Resultados preliminares de uma
+sondagem na estação arqueológica de Chã do <liga termo="castro">castro</liga> (Amares, Braga), I Seminário de Arqueologia do Noroeste
+Penínsular, 2, Guimarães, pp.120. </biblio>
+<biblio>MARTINS, M. (1990). O Povoamento Proto-Histórico e a romanização da Bacia do
+Curso do Médio Cávado, Cadernos de Arqueologia - Monografias, 5,
+Universidade do Minho, Braga, pp. 66. </biblio>
+<autor>Manuela Martins </autor>
+<data>04-Fev-1998</data>
+</arqelem>

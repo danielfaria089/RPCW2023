@@ -1,0 +1,32 @@
+<arqelem>
+<tipo assunto="arqueossitio"></tipo>
+<identi> Castro de Santa Engrácia </identi>
+<descri>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+</descri>
+<crono> Proto-História</crono>
+<lugar> Castro de Santa Engrácia </lugar>
+<fregue> Geme </fregue>
+<concel> Vila Verde </concel>
+<codadm> 031317 </codadm>
+<latitu> 522,1 </latitu>
+<longit> 174,6 </longit>
+<altitu> 217m </altitu>
+<acesso>O acesso faz-se a partir das povoações de Geme, ou de Esqueiros.</acesso>
+<quadro>O sítio onde assenta o <liga termo="castro"> castro</liga> corresponde a um
+monte, de altitude média, que se destaca bem no vale, definido pelos
+terraços da Ribeira do Tojal, a Este e do Ribeiro de Silvares, a Norte e NE.</quadro>
+<traarq>Não são conhecidos trabalhos arqueológicos no local.</traarq>
+<desarq>O monte encontra-se totalmente arborizado, facto que torna difícil a
+observação de estruturas. O povoado parece estar bastante destruído, quer
+pela vegetação, quer por sucessivos roubos de pedra. Actualmente é mesmo
+impossível definir o número de linhas de muralhas que possuía.</desarq>
+<interp>
+<liga termo="povoado fortificado"> Povoado fortificado</liga>
+proto-histórico.</interp>
+<biblio> MARTINS, M. (1990) O Povoamento Proto-Histórico e a Romanização da
+Bacia do Curso do Médio Cávado, Cadernos de Arqueologia - Monografias, 5,
+Universidade do Minho, Braga, pp. 98. </biblio>
+<autor> Manuela Martins </autor>
+<data>04-FEV-1998</data>
+</arqelem>
