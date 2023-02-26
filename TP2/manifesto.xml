@@ -1,0 +1,28 @@
+<manifesto>
+    <meta>
+        <título>TPC2</título>
+        <data>2023-02-26</data>
+        <autor>
+            <nome>Daniel Faria</nome>
+            <id>PG50306</id>
+            <gitlink>https://github.com/danielfaria89/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+    <p>
+        <b>Tarefa 1</b>
+        Separar os elementos do ficheiro arq.xml em ficheiros separados, de modo a que cada ficheiro corresponda a um elemento do ficheiro.
+        Com estes ficheiros, criar um servidor web que permita aceder a cada um dos ficheiros através de um URL.
+
+        <b>Tarefa 2</b>
+        Criar um ficheiro index.html que permita aceder a todos os ficheiros criados na tarefa 1, usando apenas uma página.
+    </p>
+
+    </resumo>
+    <resultados>
+        <resultado path="servidor.js">Programa que cria o server que vai estar à escuta na porta 7777, para responder aos pedidos de ficheiros</resultado>
+        <resultado path="main.py">Programa responsável por separar o ficheiro arq.xml em vários e criar a página web com as referências para os mesmos</resultado>
+        <resultado path="index.html">Página web que permite aceder aos diferentes ficheiros</resultado>
+    </resultados>
+</manifesto>
