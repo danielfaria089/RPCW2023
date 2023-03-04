@@ -172,3 +172,83 @@ exports.sexosPage = function(sexos){
     `
     return pagHTML
 }
+
+exports.desportosPage = function(desportos){
+    var pagHTML = `
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <link rel="stylesheet" href="/w3.css"/>
+            <title>Distribuição por desporto</title>
+        </head>
+        <body>
+            <div class="w3-card-4">
+
+                <header class="w3-container w3-teal">
+                    <h1>Distribuição por desporto</h1>
+                </header>
+        
+                <div class="w3-container">
+                    <table class="w3-table-all">
+                        <tr>
+                            <th>Desporto</th><th>Quantidade</th>
+                        </tr>
+                `
+    for(let i=0; i<desportos.length; i++){
+        desporto = desportos[i][0]
+        quantidade = desportos[i][1]
+        pagHTML += `
+                <tr onclick="window.location.href='/desportos/${desporto}';">
+                    <td>${desporto}</td><td>${quantidade}</td>
+                </tr>
+        `
+    }
+
+    pagHTML += `
+            </table>
+        </body>
+    </html>
+    `
+    return pagHTML
+}
+
+exports.profissoesPage = function(profissoes){
+    var pagHTML = `
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <link rel="stylesheet" href="/w3.css"/>
+            <title>Top10 de profissões</title>
+        </head>
+        <body>
+            <div class="w3-card-4">
+
+                <header class="w3-container w3-teal">
+                    <h1>Top10 de profissões</h1>
+                </header>
+        
+                <div class="w3-container">
+                    <table class="w3-table-all">
+                        <tr>
+                            <th>Profissões</th><th>Quantidade</th>
+                        </tr>
+                `
+    for(let i=0; i<profissoes.length; i++){
+        var profissao = profissoes[i][0]
+        var quantidade = profissoes[i][1]
+        pagHTML += `
+                <tr onclick="window.location.href='/profissoes/${profissao}';">
+                    <td>${profissao}</td><td>${quantidade}</td>
+                </tr>
+        `
+    }
+
+    pagHTML += `
+            </table>
+        </body>
+    </html>
+    `
+    return pagHTML
+}
