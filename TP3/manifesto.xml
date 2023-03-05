@@ -1,0 +1,46 @@
+<manifesto>
+    <meta>
+        <título>TPC3</título>
+        <data>2023-03-05</data>
+        <autor>
+            <nome>Daniel Faria</nome>
+            <id>PG50306</id>
+            <gitlink>https://github.com/danielfaria89/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+    <p>
+        <b>Tarefa 1</b>
+        Listar as pessoas: apresenta uma lista de indivíduos numa tabela exibindo os campos id, nome, idade, sexo e cidade.
+        Tal foi conseguido usando o resultado do pedido GET para o servidor de dados e colocando o resultado numa tabela.
+        A cada linha da tabela foi adicionado uma referência que permite aceder à página da pessoa correspondente.
+    </p>
+    <p>
+        <b>Tarefa 2</b>
+        Distribuição por sexo: o sistema deverá responder com uma página onde se possa consultar o número de pessoas de cada sexo.
+        Tal foi alcançado utilizando o resultado do pedido GET dos dados de todas as pessoas e contando o número de pessoas de cada sexo.
+        Ao clicar em cada linha da tabela é apresentada uma lista de pessoas do sexo correspondente.
+        Isto é conseguido usando a página da tarefa 1, mas filtrando as pessoas por sexo usando a query string.
+    </p>
+    <p>
+        <b>Tarefa 3</b>
+        Distribuição por desporto: o sistema deverá responder com uma página onde se possa consultar o número de pessoas que pratica cada um dos desportos.
+        Tal foi alcançado utilizando o resultado do pedido GET dos dados de todas as pessoas e contando o número de pessoas que pratica cada desporto.
+        Ao clicar em cada linha da tabela é apresentada uma lista de pessoas que pratica o desporto correspondente.
+        Isto é conseguido usando a página da tarefa 1, mas filtrando as pessoas por desporto "à mão".
+    </p>
+    <p>
+        <b>Tarefa 4</b>
+        Top 10 profissões: o sistema deverá responder com uma página onde se possa consultar as 10 profissões mais exercidas.
+        Tal foi alcançado utilizando o resultado do pedido GET dos dados de todas as pessoas e contando o número de pessoas que exerce cada profissão.
+        Ao clicar em cada linha da tabela é apresentada uma lista de pessoas que exerce a profissão correspondente.
+        Isto é conseguido usando a página da tarefa 1, mas filtrando as pessoas por profissão "à mão".
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="dataset-extra1.json">Dataset usado</resultado>
+        <resultado path="mypages.js">Ficheiro onde se encontram os métodos responsáveis por gerar as páginas web</resultado>
+        <resultado path="pessoas_server.js">Ficheiro que se corre para correr o servidor na porta 7777, que irá apresentar as várias páginas</resultado>
+    </resultados>
+</manifesto>
