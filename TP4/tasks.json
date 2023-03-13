@@ -1,11 +1,18 @@
 {
   "toDo": [
     {
-      "id": 3,
-      "dateDue": "2023-03-11",
+      "description": "TPC5",
       "who": "Daniel",
-      "description": "Limpar o quarto"
+      "dateDue": "2023-03-15",
+      "id": 1
     }
   ],
-  "done": []
+  "done": [
+    {
+      "description": "Limpar o quarto",
+      "who": "Daniel",
+      "dateDue": "2023-03-11",
+      "id": 1
+    }
+  ]
 }

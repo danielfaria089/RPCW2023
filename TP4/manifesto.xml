@@ -1,0 +1,51 @@
+<manifesto>
+    <meta>
+        <título>TPC4</título>
+        <data>2023-03-12</data>
+        <autor>
+            <nome>Daniel Faria</nome>
+            <id>PG50306</id>
+            <gitlink>https://github.com/danielfaria89/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+    <p>
+        <b>Tarefa 1</b>
+        Criar uma página HTML que apresenta um formulário para inserir novas tarefas, lista de tarefas por fazer e lista de tarefas
+        concluídas. O formulário deve conter um campo para inserir a data limite, quem é o responsável e a descrição da tarefa.
+        
+        Implementação: as tarefas são guardadas num ficheiro JSON, contendo dois arrays, um para as tarefas por fazer e outro
+        para as tarefas concluídas (toDo e done respetivamente). Este ficheiro é utilizado em conjunção com o json-server para
+        guardar as tarefas. Quando um utilizador pede a página, o servidor mapeia cada uma das listas para uma tabela HTML, que
+        é apresentada ao utilizador. Quando o utilizador submete um novo formulário, o servidor adiciona a tarefa ao array toDo.
+    </p>
+    <p>
+        <b>Tarefa 2</b>
+        Adicionar edit e delete aos registos da tabela. O edit deve permitir alterar os campos da tarefa(data, responsável e descrição).
+        O delete deve permitir apagar a tarefa.
+
+        Implementação: quando um utilizador pressiona o botão de editar, do lado cliente é executado um script que altera os campos
+        do formulário para os valores da tarefa que está a ser editada, mudando o atributo action para "/edit". 
+        Quando o utilizador submete o formulário, o servidor recebe o pedido POST e, em vez de adicionar a tarefa ao array toDo,
+        usando um post, altera a tarefa no array toDo, usando um put. Quando um utilizador pressiona o botão de eliminar, é enviado um
+        post para o servidor, que remove a tarefa do array toDo, usando um delete.
+
+    </p>
+    <p>
+        <b>Tarefa 3</b>
+        Adicionar um botão que permite marcar uma tarefa como concluída. Quando uma tarefa é marcada como concluída, deve ser
+        removida da lista de tarefas por fazer e adicionada à lista de tarefas concluídas.
+
+        Implementação: quando um utilizador pressiona o botão de marcar como concluída, é enviado um post para o servidor,
+        que remove a tarefa do array toDo e adiciona-a ao array done, usando um delete e um post respetivamente.
+
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="server.js">Servidor que irá responder aos pedidos do cliente</resultado>
+        <resultado path="static.js">Ficheiro responsável por tratar pedidos de recursos estáticos</resultado>
+        <resultado path="tasks.json">Ficheiro onde são armazenadas as várias tarefas</resultado>
+        <resultado path="templates.js">Ficheiro onde se encontram os métodos que geram as páginas HTML</resultado>
+    </resultados>
+</manifesto>

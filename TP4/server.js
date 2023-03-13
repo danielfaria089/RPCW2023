@@ -147,7 +147,45 @@ var formServer = http.createServer(function (req, res) {
                         });
                     })
                 }
+                else if(req.url=="/undone"){
+                    collectRequestBodyData(req, result => {
+                        axios.get('http://localhost:3000/done/'+result.id)
+                        .then(function (response) {
+                            axios.post('http://localhost:3000/toDo', {
+                                description: response.data.description,
+                                who: response.data.who,
+                                dateDue: response.data.dateDue
+                            })
+                            .then(function (response) {
+                                axios.delete('http://localhost:3000/done/'+result.id)
+                                .then(function (response) {
+                                    res.writeHead(302, {'Location': '/'});
+                                    res.end();
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                    res.writeHead(200, {'Content-Type': 'text/html'});
+                                    res.write("Error");
+                                    res.end();
+                                });
+                            })
+                            .catch(function (error) {
+                                console.log(error);
+                                res.writeHead(200, {'Content-Type': 'text/html'});
+                                res.write("Error");
+                                res.end();
+                            });
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                            res.writeHead(200, {'Content-Type': 'text/html'});
+                            res.write("Error");
+                            res.end();
+                        });
+                    })
+                }
                 break;
+
         }
     }
 })

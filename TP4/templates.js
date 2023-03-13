@@ -17,6 +17,7 @@ taskform = function (){
             </fieldset>
             <br/>
             <button class="w3-btn w3-purple w3-mb-2" type="submit">Submit</button>
+            <button class="w3-btn w3-teal w3-mb-2" type="reset">Reset</button>
         </form>
     </div>
     `
@@ -24,37 +25,39 @@ taskform = function (){
 
 toDo_Div = function (tasks){
     var div = `
-                <div class="w3-card-4 w3-cell">
+                <div class="w3-half">
                     <table class="w3-table w3-bordered">
-                    <tr>
-                        <th>Task Description</th>
-                        <th>Who will do it</th>
-                        <th>Date due</th>
-                        <th>Operations</th>
-                    </tr>
+                        <tr>
+                            <th>Task Description</th>
+                            <th>Who will do it</th>
+                            <th>Date due</th>
+                            <th>Operations</th>
+                        </tr>
     `
 
     for (var i = 0; i < tasks.length; i++) {
         div+=`
-                    <tr>
-                        <td>${tasks[i].description}</td>
-                        <td>${tasks[i].who}</td>
-                        <td>${tasks[i].dateDue}</td>
-                        <td>
-                            <form action="/done" method="POST">
-                                <input type="hidden" name="id" value="${tasks[i].id}"/>
-                                <button class="w3-btn w3-green" type="submit">Done</button>
-                            </form>
-                            <form action="/delete" method="POST">
-                                <input type="hidden" name="id" value="${tasks[i].id}"/>
-                                <button class="w3-btn w3-red" type="submit">Delete</button>
-                            </form>
-                            <button class="w3-btn w3-blue" onclick="edit('${tasks[i].id}','${tasks[i].description}','${tasks[i].who}','${tasks[i].dateDue}')">Edit</button>
-                        </td>               
+                        <tr>
+                            <td>${tasks[i].description}</td>
+                            <td>${tasks[i].who}</td>
+                            <td>${tasks[i].dateDue}</td>
+                            <td>
+                                <form action="/done" method="POST">
+                                    <input type="hidden" name="id" value="${tasks[i].id}"/>
+                                    <button class="w3-btn w3-green" type="submit">Done</button>
+                                </form>
+                                <form action="/delete" method="POST">
+                                    <input type="hidden" name="id" value="${tasks[i].id}"/>
+                                    <button class="w3-btn w3-red" type="submit">Delete</button>
+                                </form>
+                                <button class="w3-btn w3-blue" onclick="edit('${tasks[i].id}','${tasks[i].description}','${tasks[i].who}','${tasks[i].dateDue}')">Edit</button>
+                            </td>
+                        </tr>        
         `
     }
 
     div+=`
+                    </table>
                 </div>`
 
     return div
@@ -62,32 +65,38 @@ toDo_Div = function (tasks){
 
 done_Div = function (tasks){
     var div = `
-                <div class="w3-card-4 w3-cell">
+                <div class="w3-half w3-border-left">
                     <table class="w3-table w3-bordered">
-                    <tr>
-                        <th>Task Description</th>
-                        <th>Who will do it</th>
-                        <th>Date due</th>
-                        <th>Operations</th>
-                    </tr>
+                        <tr>
+                            <th>Task Description</th>
+                            <th>Who will do it</th>
+                            <th>Date due</th>
+                            <th>Operations</th>
+                        </tr>
     `
     for (var i = 0; i < tasks.length; i++) {
         div+=`
-                    <tr>
-                        <td>${tasks[i].description}</td>
-                        <td>${tasks[i].who}</td>
-                        <td>${tasks[i].dateDue}</td>
-                        <td>
-                            <form action="/delete" method="POST">
-                                <input type="hidden" name="id" value="${tasks[i].id}"/>
-                                <button class="w3-btn w3-red" type="submit">Delete</button>
-                            </form>
-                            <button class="w3-btn w3-blue" onclick="edit('${tasks[i].id}','${tasks[i].description}','${tasks[i].who}','${tasks[i].dateDue}')">Edit</button>
-                        </td>               
+                        <tr>
+                            <td>${tasks[i].description}</td>
+                            <td>${tasks[i].who}</td>
+                            <td>${tasks[i].dateDue}</td>
+                            <td>
+                                <form action="/undone" method="POST">
+                                    <input type="hidden" name="id" value="${tasks[i].id}"/>
+                                    <button class="w3-btn w3-yellow" type="submit">Undone</button>
+                                </form>
+                                <form action="/delete" method="POST">
+                                    <input type="hidden" name="id" value="${tasks[i].id}"/>
+                                    <button class="w3-btn w3-red" type="submit">Delete</button>
+                                </form>
+                                <button class="w3-btn w3-blue" onclick="edit('${tasks[i].id}','${tasks[i].description}','${tasks[i].who}','${tasks[i].dateDue}')">Edit</button>
+                            </td>
+                        </tr>          
         `
     }
 
     div+=`
+                    </table>   
                 </div>`
 
     return div
@@ -105,7 +114,7 @@ exports.fullpage = function (toDo,done) {
     +taskform()
     +`
             </br>
-            <div class="w3-cell-row">
+            <div class="w3-row-padding">
     `
     +toDo_Div(toDo)
     +done_Div(done)
