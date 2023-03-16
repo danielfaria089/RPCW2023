@@ -13,9 +13,11 @@ block content
                 input.w3-input(type="text" name="who" required)
                 label Date due: 
                 input.w3-input(type="date" name="dateDue" required)
+                input.w3-input(type="hidden" name="id" value="")
             br
-            button.w3-btn.w3-purple.w3-mb-2(type="submit") Submit
-            button.w3-btn.w3-purple.w3-mb-2(type="reset") Reset
+            .btn-bar 
+                button.w3-border.w3-border-black.w3-btn.w3-purple.w3-mb-2(type="submit") Submit
+                button.w3-border.w3-border-black.w3-btn.w3-teal.w3-mb-2(type="reset") Reset
     .w3-row-padding
         .w3-half 
             table.w3-table.w3-bordered 
@@ -29,14 +31,15 @@ block content
                         td= task.description
                         td= task.who
                         td= task.dateDue
-                        td 
-                            form(action="/done" method="POST")
-                                input(type="hidden" name="id" value=task.id)
-                                button.w3-btn.w3-green(type="submit") Done
-                            form(action="/delete" method="POST")
-                                input(type="hidden" name="id" value=task.id)
-                                button.w3-btn.w3-green(type="submit") Delete
-                            button.
+                        td
+                            .btn-group
+                                form(action="/done" method="POST")
+                                    input(type="hidden" name="id" value=task.id)
+                                    button.w3-border.w3-border-black.w3-btn.w3-green(type="submit") Done
+                                form(action="/delete/toDo" method="POST")
+                                    input(type="hidden" name="id" value=task.id)
+                                    button.w3-border.w3-border-black.w3-btn.w3-red(type="submit") Delete
+                                button.w3-border.w3-border-black.w3-btn.w3-blue(onclick='edit("'+ task.id +'","'+task.description+'","'+task.who+'","'+task.dateDue+'","toDo")') Edit
         .w3-half.w3-border-left 
             table.w3-table.w3-bordered 
                 tr 
@@ -50,26 +53,28 @@ block content
                         td= task.who
                         td= task.dateDue
                         td 
-                            form(action="/undone" method="POST")
-                                input(type="hidden" name="id" value=task.id)
-                                button.w3-btn.w3-yellow(type="submit") Undone
-                            form(action="/delete" method="POST")
-                                input(type="hidden" name="id" value=task.id)
-                                button.w3-btn.w3-green(type="submit") Delete
-        script(type="text/javascript").
-            function edit(id, description, who, dateDue){
-                if(document.getElementById("form").id.value != ""){
-                    document.getElementById("form").id.value = ""
-                    document.getElementById("form").description.value = ""
-                    document.getElementById("form").who.value = ""
-                    document.getElementById("form").dateDue.value = ""
-                    document.getElementById("form").action = "/add"
-                }
-                else{
-                    document.getElementById("form").action = "/edit"
-                    document.getElementById("form").id.value = id
-                    document.getElementById("form").description.value = description
-                    document.getElementById("form").who.value = who
-                    document.getElementById("form").dateDue.value = dateDue
-                }
-            }      
+                            .btn-group
+                                form(action="/undone" method="POST")
+                                    input(type="hidden" name="id" value=task.id)
+                                    button.w3-border.w3-border-black.w3-btn.w3-indigo(type="submit") Undone
+                                form(action="/delete/done" method="POST")
+                                    input(type="hidden" name="id" value=task.id)
+                                    button.w3-border.w3-border-black.w3-btn.w3-red(type="submit") Delete
+                                button.w3-border.w3-border-black.w3-btn.w3-blue(onclick='edit("'+ task.id +'","'+task.description+'","'+task.who+'","'+task.dateDue+'","done")') Edit
+    script(type="text/javascript").
+        function edit(id, description, who, dateDue, list){
+            if(document.getElementById("form").id.value != ""){
+                document.getElementById("form").id.value = ""
+                document.getElementById("form").description.value = ""
+                document.getElementById("form").who.value = ""
+                document.getElementById("form").dateDue.value = ""
+                document.getElementById("form").action = "/add"
+            }
+            else{
+                document.getElementById("form").action = "/edit/"+list
+                document.getElementById("form").id.value = id
+                document.getElementById("form").description.value = description
+                document.getElementById("form").who.value = who
+                document.getElementById("form").dateDue.value = dateDue
+            }
+        }      

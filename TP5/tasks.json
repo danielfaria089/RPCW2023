@@ -1,15 +1,15 @@
 {
   "toDo": [
     {
-      "description": "TPC5",
+      "description": "Fazer o TPC 5",
       "who": "Daniel",
-      "dateDue": "2023-03-15",
+      "dateDue": "2023-03-21",
       "id": 1
     }
   ],
   "done": [
     {
-      "description": "Limpar o quarto",
+      "description": "Limpar os quartos",
       "who": "Daniel",
       "dateDue": "2023-03-11",
       "id": 1
