@@ -24,6 +24,7 @@ module.exports.get = (id) => {
 
 //add
 module.exports.add = (pessoa) => {
+    console.dir(pessoa)
     var newPessoa = new Pessoa(pessoa)
     return newPessoa.save()
         .then( pessoa =>{

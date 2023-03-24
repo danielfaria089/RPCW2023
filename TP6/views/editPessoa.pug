@@ -1,67 +1,77 @@
 extends layout
 
 block content
-    .w3-card-4
+    .w3-card-4 
         header.w3-container.w3-teal
-        h1 Dados da Pessoa:
+            h1 Dados de #{p.nome}:
         
         form.w3-container(method="POST" onsubmit="event.preventDefault();" id="form")
             fieldset
                 legend Dados Pessoais
                 label Nome
-                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="nome" required)
+                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="nome" value=p.nome required)
                 label Idade
-                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="number" name="idade" required)
+                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="number" name="idade" value=p.idade required)
                 fieldset
                     legend Sexo
                     label Masculino
-                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="masculino")
+                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="masculino" checked=p.sexo=="masculino")
                     label Feminino
-                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="feminino")
+                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="feminino" checked=p.sexo=="feminino")
                     label Outro
-                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="outro")
+                    input.w3-radio.w3-margin-right(type="radio" name="sexo" value="outro" checked=p.sexo=="outro") 
                 fieldset
                     legend Morada 
                     label Cidade
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="cidade" required)
+                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="cidade" value=p.morada.cidade required)
                     label Distrito 
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="distrito" required)
+                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="distrito" value=p.morada.distrito required)
                 fieldset
                     legend Documento de Identificação
-                    label BI
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="BI")
-                    label CC
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="CC")
-            fieldset
+                    if p.CC 
+                        label CC
+                        input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="CC" value=p.CC)
+                    else
+                        label BI
+                        input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="BI" value=p.BI)
+            fieldset 
                 label Descrição
                 textarea.w3-input.w3-border.w3-round.w3-margin-bottom(name="descrição")
+                    | #{p.descrição}
                 label Profissão
-                input.w3-input.w3-border.w3-round.w3(type="text" name="profissao" required)
+                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="profissao" value=p.profissao required)
                 fieldset
                     legend Partido Político
                     label Abreviatura
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="party_abbr" required)
+                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="party_abbr" value=p.partido_politico.party_abbr required)
                     label Nome
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="party_name" required)
+                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="party_name" value=p.partido_politico.party_name required)
                 label Religião
-                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="religiao")
-                label Desportos 
+                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="religiao" value=p.religiao)
+                label Desportos
                 textarea.w3-input.w3-border.w3-round.w3-margin-bottom(name="desportos")
+                    | #{p.desportos.join("\n")}
                 label Animais
                 textarea.w3-input.w3-border.w3-round.w3-margin-bottom(name="animais")
+                    | #{p.animais.join("\n")}
                 label Figuras Públicas Portuguesas
                 textarea.w3-input.w3-border.w3-round.w3-margin-bottom(name="figura_publica_pt")
+                    | #{p.figura_publica_pt.join("\n")}
                 label Marca de Carro
-                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="marca_carro" required)
+                input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="marca_carro" value=p.marca_carro required)
                 label Destinos Favoritos
                 textarea.w3-input.w3-border.w3-round.w3-margin-bottom(name="destinos_favoritos")
+                    | #{p.destinos_favoritos.join("\n")}
                 fieldset
                     legend Atributos
                     each atributo in ["fumador","gosta_cinema","gosta_viajar","acorda_cedo","gosta_ler","gosta_musica","gosta_comer","gosta_animais_estimacao","gosta_dancar"]
                         label.w3-margin-left= atributo
-                        input.w3-check(type="checkbox" name=atributo value="true")
+                        if p.atributos[atributo]
+                            input.w3-check(type="checkbox" name=atributo value="true" checked)
+                        else
+                            input.w3-check(type="checkbox" name=atributo value="true")
                     label Comida Favorita
-                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="comida_favorita" required)
+                    input.w3-input.w3-border.w3-round.w3-margin-bottom(type="text" name="comida_favorita" value=p.atributos.comida_favorita required)
             input.w3-btn.w3-round.w3-indigo.w3-margin-bottom(type="submit" value="Submit" onclick="treatFields();" form="form")
             input.w3-btn.w3-round.w3-indigo.w3-margin-bottom(type="reset" value="Reset")
 
@@ -70,7 +80,6 @@ block content
     
     script(type="text/javascript").
         function treatFields() {
-            console.log("treatFields");
             if(document.querySelector("input[name='CC']").value != ""){
                 document.querySelector("input[name='BI']").remove();
                 document.getElementById("form").submit();
@@ -83,6 +92,3 @@ block content
                 alert("Tem de preencher o BI ou o CC");
             }
         }
-
-
-
