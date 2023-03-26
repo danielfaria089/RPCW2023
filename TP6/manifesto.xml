@@ -1,0 +1,35 @@
+<manifesto>
+    <meta>
+        <título>TPC6</título>
+        <data>2023-03-27</data>
+        <autor>
+            <nome>Daniel Faria</nome>
+            <id>PG50306</id>
+            <gitlink>https://github.com/danielfaria89/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+    <resumo>
+    <p>
+        <b>Tarefa 1</b>
+        Com os conhecimentos adquiridos na aula prática (em que utilizamos o MongoDB, para criar aprimorar a aplicação desenvolvida em torno do dataset de alunos)
+        para criar uma aplicação web na qual se possa gerir uma lista de pessoas.
+
+        Para isto adaptei o código da aula prática de modo a utilizar os campos diferentes da pessoa. Utilizando o mongoose para criar o modelo da pessoa e o express
+        para criar o servidor.
+
+
+    </resumo>
+    <resultados>
+        <resultado path="controllers/pessoas.js">Ficheiro onde foram codificadas as interações do servidor com a base de dados</resultado>
+        <resultado path="models/pessoas.js">Ficheiro onde foi criado o modelo da pessoa</resultado>
+        <resultado path="views/addPessoa.pug">Formulário para adicionar uma pessoa</resultado>
+        <resultado path="views/editPessoa.pug">Formulário para editar uma pessoa</resultado>
+        <resultado path="views/deletePessoa.pug">Formulário de confirmação para eliminar uma pessoa</resultado>
+        <resultado path="views/index.pug">Página inicial onde é apresentada a lista de pessoas</resultado>
+        <resultado path="views/layout.pug">Layout da página</resultado>
+        <resultado path="views/person.pug">Página onde é apresentada a informação de uma pessoa</resultado>
+        <resultado path="views/error.pug">Página de erro</resultado>
+        <resultado path="routes/index.js">Ficheiro onde é definido o comportamento do servidor face a cada pedido</resultado> 
+    </resultados>
+</manifesto>
